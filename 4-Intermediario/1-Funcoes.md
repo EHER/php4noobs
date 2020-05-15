@@ -8,6 +8,8 @@ Bom, é isso que eu penso e até entender o que era de fato, foi sempre isso ai.
 
 Em poucas palavras: **Função é um bloco de código reutilizável** onde você pode atrelar uma responsabilidade única.
 
+some other changes
+
 Ficou confuso? Vamos entender sobre o que é preciso pra se escrever uma função:
 
 - Palavra reservada **function**;
@@ -22,9 +24,9 @@ Com isso ai podemos escrever uma função bem simples e começar a entender a me
 Vamos escrever uma função simples e analisar os elementos citados acima no bloco abaixo.
 
 ```php
-function recepcionar ($nomePessoa)
+function recepcionar ($nome)
 {
-    echo 'Olá ' . $nomePessoa;
+    echo 'Olá ' . $nome;
 }
 
 recepcionar('danielhe4rt');
